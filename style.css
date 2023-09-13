@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  color: black;
+}
+
+
+
+.parallax-container {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    color: #000;
+  
+}
+
+.background {
+  background-image: linear-gradient(
+      to bottom,
+       rgba(0, 0, 0, 0.0) 0%,
+      rgba(0, 0, 0, 0.3) 60%, 
+      #010101 100%
+    ),
+    url("https://media.istockphoto.com/id/876700382/vector/kitchenware-background.jpg?s=612x612&w=0&k=20&c=neJUuoTB9TbibAvWi5s_ilOA42h_6De9zP8LMsdnwtI=");
+  width: 100vw;
+  height: 100vh;
+  background-position: top;
+  z-index: 1;
+  position: relative;
+  box-shadow: 0 50px 50px black;
+  transition: background-image 0.4s ease-in-out; 
+}
+
+
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  font-family: "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-size: 3rem;
+  color: black;
+}
+
+.layer-1 {
+    z-index: -1;
+    transform: translateY(0);
+      top: 0;
+ 
+
+}
+
+.layer-2 {
+    z-index: -2;
+    transform: translateY(0);
+      top: 0;
+
+}
+
+.layer-3 {
+    z-index: -3;
+    transform: translateY(0);
+      top: 0;
+
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+  background-image:linear-gradient(
+      to bottom,
+       rgba(0, 0, 0, 0.3) 70%,
+      rgba(0, 0, 0, 0.0) 0%, 
+      #000000 100%
+    ),
+ url("https://img.freepik.com/premium-photo/black-marble-texture-abstract-background-pattern-design_158502-344.jpg");
+ 
+}
+
+  .recipe-container {
+            display: flex;
+            justify-content: center;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+ 
+.recipe-text {
+  flex: 1;
+  text-align: center;
+  padding: 0 20px; 
+  max-width: 800px; 
+  margin-bottom: 20px; 
+justify-content: center;
+  letting-spacing: 0.01em;
+}
+
+
+li {
+  letter-spacing: 1.5px; 
+  line-height: 1.3;
+  text-style: bold;
+  font-size: 14px;
+}
+
+
+h2 {
+  font-size: 26px;
+  color: yellow;
+}
+
+.bgpic {
+  z-index: 2;
+  display: flex;
+  height: 330px;
+  margin-left: 0px;
+  position: absolute;
+  justify-content: left;
+}
+
+.pasta {
+  display: flex;
+  height: 300px;
+  width:320px;
+ left: 78%;
+  position: absolute;
+
+}
+
+.spaghetti {
+  display: flex;
+  height: 300px;
+  width: 450px;
+  position: absolute;
+}
+
+
+.lasagna {
+  display: flex;
+  height: 350px;
+  width: 450px;
+  position: absolute;
+}
+
